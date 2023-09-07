@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/caa56555ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="hero container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="heroTextImage">
+            <div class="hero__text">
+                <small class="hero-small">Salutations, I am</small>
+                <h1> David Nosach</h1>
+                <h2>Frontend Developer</h2>
+                <p>Sacramento based web developer focused on creating beautiful digital experiences, and improving lives
+                    through software.
+                </p>
+
+                <div class="hero-bottom">
+                    <a href="#projects" class="btn">Projects</a>
+                    <div class="hero-logos">
+                        <a href="https://www.linkedin.com/in/david-nosach/"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/David-Nosach"><i class="fa-brands fa-github top-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="photo">
+                <img class="me" src="img/portfolioPic.png" alt="mee">
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutDiv" id="about">
+        <div class="container1 row">
+            <section class="about">
+                <h2 class="about-title">About Me</h2>
+                <p>Hi! My name is David and I find pleasure in making all things web related.
+                    Having graduated with a useless degree of B.S. in business administration, I realzied
+                    I needed to learn a practical skill, and web development was an easy choice. Since then I
+                    have graduated from the Frontend WebDevelopement Techdegree program with Team Treehouse,
+                    and completed many personal projects in order to hone my skills as a web developer. </p>
+                <p> I am currently expanding my skillset learning new languages and frameworks. I continue to build
+                    personal projects as well as software for local businesses, since nothing beats hands on experience.
+                    Check out some of my projects down below and don't hesitate to contact me.
+                </p>
+            </section>
+            <ul class="skills">
+                <h2 class="skillsTitle">Skills</h2>
+                <li><i class="fa-brands fa-html5"></i> HTML</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-square-js"></i> JavaScript</li>
+                <li><i class="fa-brands fa-react"></i> React</li>
+                <li><i class="fa-brands fa-sass"></i> Sass</li>
+                <li><i class="fa-brands fa-github fa-github-skills"></i> GIT</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-projects" id="projects">
+        <h2 class="project-title">Projects</h2>
+        <div class="projects">
+            <div class="skewed">
+                <div class="text">
+                    <h1>Guess the Phrase</h1>
+                    <p>
+                        Relive your childhood by playing this hangman style game. JavaScript heavy app
+                        that brings out your competitive nature.
+                    </p>
+                    <div class="project-links">
+                        <button class="link-button button1"> <a href="https://www.google.co.uk/"
+                                class="button-link-style">Live</a></button>
+                        <button class="link-button button2"><a href="https://www.google.co.uk/"
+                                class="button-link-style">Github</a></button>
+                    </div>
+                </div>
+                <div class="image">
+                    <div>
+                        <img src="img/Guess-The-Phrase.png" alt="game">
+                    </div>
+                </div>
+            </div>
+            <div class="skewed skewed-left">
+                <div class="image">
+                    <div>
+                        <img src="img/directory.png" alt="">
+                    </div>
+                </div>
+                <div class="text">
+                    <h1>Employee Directory </h1>
+                    <p>
+                        What better place to learn about your coworkers than an empoloyee directory.
+                        Featuring the random user API, this app shows the power of JSON and fetching data.
+                    </p>
+                    <div class="project-links">
+                        <button class="link-button button1"> <a href="#" class="button-link-style">Live</a></button>
+                        <button class="link-button button2"><a href="#" class="button-link-style">Github</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="skewed">
+                <div class="text">
+                    <h1>WebApp </h1>
+                    <p>
+                        Web app showcasing every widget you might need for your project. Ranging
+                        from graphs, notifcation pop-ups, contact forms, and much more.
+                    </p>
+                    <div class="project-links">
+                        <button class="link-button button1"> <a href="#" class="button-link-style">Live</a></button>
+                        <button class="link-button button2"><a href="#" class="button-link-style">Github</a></button>
+                    </div>
+                </div>
+                <div class="image">
+                    <div>
+                        <img src="img/webApp.png" alt="game">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactDiv" id="contact">
+        <div class="container contact-container">
+            <div class="contact">
+                <h2 class="contact-Title">Let's engage in conversation</h2>
+                <a href="mailto: davidnosach@yahoo.com">davidnosach@yahoo.com</a>
+                <a href="https://www.linkedin.com/in/david-nosach-978594222/">LinkedIn</a>
+                <a href="https://github.com/David-Nosach" class="git">github</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

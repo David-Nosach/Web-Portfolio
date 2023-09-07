@@ -1,0 +1,532 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #e9ecef;
+  color: #080808;
+}
+
+/* -----------------------------  nav ------------------------- */
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.nav__item {
+  padding-top: 0rem;
+}
+
+.nav__link {
+  color: rgba(0, 0, 0, 0.651);
+}
+
+.nav__list {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+}
+
+.nav__link {
+  margin: 1em;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 #ced4da, 0 2px 0 #ced4da;
+  transition: box-shadow 0.3s;
+  color: rgba(0, 0, 0, 0.651);
+  overflow: hidden;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.nav__link:hover {
+  box-shadow: inset 0 -30px 0 #ced4da, 0 2px 0 #ced4da;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5%;
+}
+
+/* ----------------------------- hero ------------------------- */
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 4rem auto 0 auto;
+}
+
+.heroTextImage {
+  display: flex;
+}
+
+.hero__text {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.hero__text h1 {
+  color: rgba(0, 0, 0, 0.842);
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.hero__text h2 {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.hero__text p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.hero-small {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #253c78;
+}
+
+.btn {
+  font-size: 1.3rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #f8f9fa;
+  text-transform: uppercase;
+  background-color: #253c78;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: boxshadow, transform;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.fa-linkedin,
+.top-github {
+  color: #253c78;
+  font-size: 1.5rem;
+  transition: opacity 0.5s;
+}
+
+.fa-linkedin:hover,
+.fa-linkedin:focus,
+.top-github:hover,
+.top-github:focus {
+  opacity: 0.75;
+  transition: opacity 0.5s;
+}
+
+.hero-logos {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  margin: 0;
+  padding: 0 0.5rem 0 0;
+}
+
+.fa-react {
+  padding: 0 0.5rem 0 0;
+}
+
+.top-github {
+  margin-left: 3rem;
+}
+
+.fa-github-skills {
+  margin-bottom: 2rem;
+}
+.logos {
+  text-align: center;
+}
+
+li {
+  font-size: 1.3rem;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+i {
+  padding: 1.2rem;
+}
+
+.about-title {
+  margin-top: 0;
+}
+
+.skillsTitle {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.me {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* -----------------------------------ABOUT--------------------------------*/
+.about {
+  width: 60%;
+}
+
+.aboutDiv {
+  background-color: #ced4da;
+}
+
+.container1 {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  background-color: #253c78;
+  color: #f8f9fa;
+  max-width: 200px;
+  border-radius: 50px;
+  margin: 0;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.about {
+  margin-top: 4rem;
+}
+
+.about p {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 1rem;
+}
+
+/* ----------------------------------- PROJECTS --------------------------------*/
+
+.projects {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p,
+small {
+  color: #8f8f8f;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 23px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.skewed {
+  color: #f1f1f1;
+  display: flex;
+  background: #111;
+  margin: 2em 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.text {
+  padding: 1.5em;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image {
+  width: 50%;
+  height: 17em;
+  position: relative;
+  overflow: hidden;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  left: -6.1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(20deg);
+  background: #111;
+  width: 40%;
+  height: 140%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.skewed-left .image::before {
+  transform: translateY(-50%) rotate(-20deg);
+  left: initial;
+  right: -6.1em;
+}
+
+img {
+  width: 140%;
+}
+
+.project-links {
+  display: flex;
+}
+
+.link-button {
+  background-color: #f1f1f1;
+  border: #f1f1f1;
+  border-radius: 4px;
+  padding: 3px 10px 3px 10px;
+
+  transition: 0.5s;
+}
+
+.link-button:hover {
+  transform: scale(0.97);
+}
+
+.button1 {
+  margin-right: 0.5rem;
+}
+
+.button-link-style {
+  color: #111;
+  letter-spacing: 2px;
+}
+
+.project-title {
+  margin-top: 0px;
+  padding-top: 4rem;
+}
+
+.container-projects {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+/* ----------------------------------- Contact --------------------------------*/
+
+.contact {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.contactDiv {
+  background-color: #ced4da;
+}
+
+.contact a {
+  display: inline-block;
+}
+
+.contact a {
+  margin: 1em;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 #e9ecef, 0 2px 0 #e9ecef;
+  transition: box-shadow 0.3s;
+  color: rgba(0, 0, 0, 0.651);
+  overflow: hidden;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.contact a:hover {
+  box-shadow: inset 0 -30px 0 #e9ecef, 0 2px 0 #e9ecef;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5%;
+}
+
+.contactDiv {
+  padding-top: 1rem;
+}
+
+/* ------------------------------------------------- Media Queries -------------------------------------------------*/
+
+/* ----------------------------- NAV / HERO ------------------------- */
+
+@media all and (max-width: 1100px) {
+  .photo {
+    width: 60%;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .me {
+    border: solid 4px #f8f9fa;
+
+    border-radius: 50%;
+  }
+}
+
+@media all and (max-width: 855px) {
+  .nav__list {
+    justify-content: center;
+  }
+
+  .heroTextImage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero__text {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .me {
+    border: solid 4px #f8f9fa;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .photo {
+    justify-content: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .hero-small {
+    margin-top: 15px;
+  }
+}
+
+/* ----------------------------------- ABOUT --------------------------------*/
+@media all and (max-width: 855px) {
+  .about {
+    width: auto;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #253c78;
+    color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    border-radius: 50px;
+    margin: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .fa-github-skills {
+    margin-bottom: auto;
+  }
+
+  .skillsTitle {
+    display: none;
+  }
+
+  .fa-brands {
+    margin: 0;
+    padding: 0.5rem 0.5rem 0 0;
+  }
+}
+
+/* ----------------------------------- PROJECTS --------------------------------*/
+
+@media all and (max-width: 855px) {
+  .skewed {
+    display: block;
+    width: 20em;
+  }
+
+  .image,
+  .text {
+    width: 100%;
+  }
+
+  img {
+    width: 160%;
+  }
+  .skewed .image::before {
+    width: 120%;
+    height: 40%;
+    top: -5em;
+    left: 50%;
+    transform: translateX(-50%) rotate(10deg);
+  }
+  .skewed-left .image::before {
+    transform: translateX(-50%) rotate(-10deg);
+    top: initial;
+    bottom: -5em;
+  }
+}
