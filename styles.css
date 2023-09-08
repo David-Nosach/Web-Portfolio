@@ -50,6 +50,14 @@ body {
   border-radius: 5%;
 }
 
+.contact-nav {
+  padding-right: 0px;
+}
+
+.contact-link {
+  margin-right: 0px;
+}
+
 /* ----------------------------- hero ------------------------- */
 
 .container {
@@ -340,7 +348,7 @@ img {
 }
 
 .link-button:hover {
-  transform: scale(0.97);
+  transform: scale(1.05);
 }
 
 .button1 {
@@ -465,6 +473,10 @@ img {
   .hero-small {
     margin-top: 15px;
   }
+
+  .nav__link {
+    margin-right: 20.8px;
+  }
 }
 
 /* ----------------------------------- ABOUT --------------------------------*/
@@ -536,5 +548,9 @@ img {
     transform: translateX(-50%) rotate(-10deg);
     top: initial;
     bottom: -5em;
+  }
+
+  .big-screen-pic {
+    display: none;
   }
 }
