@@ -418,16 +418,9 @@ img {
 }
 
 @media all and (max-width: 855px) {
-  /* .nav {
-    max-width: 1200px;
-    width: 80%;
-    margin: 4rem auto 0 auto;
-  } */
-
-  /* .nav {
-    display: flex;
-    flex-wrap: wrap;
-  } */
+  .nav__link {
+    padding: 2px;
+  }
 
   .nav__item {
     padding: 0px;
@@ -435,7 +428,6 @@ img {
 
   .nav__list {
     justify-content: center;
-    align-items: default;
   }
 
   .heroTextImage {
